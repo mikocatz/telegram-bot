@@ -88,7 +88,7 @@ async def ubahssid(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         payload = {
             "name": "setParameterValues",
             "parameterValues": [
-                ["Device.WiFi.SSID.1.SSID", wifi_name, "xsd:string"]
+                ["InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.SSID", wifi_name, "xsd:string"]
             ]
         }
         
